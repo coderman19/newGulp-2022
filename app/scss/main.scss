@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'var';
+@import 'mixins';
+
+
+
+h1 {
+    color: $color;
+    font-family: $primary_font;
+}
+
+.container {
+    width: $width;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@import 'blocks/header';
+@import 'blocks/footer';
